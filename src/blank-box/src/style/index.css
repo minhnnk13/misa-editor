@@ -1,0 +1,41 @@
+.blank-box-item {
+  position: relative;
+  margin-right: 4px;
+  padding: 7px 28px 5px 8px;
+  border-radius: 10px;
+  display: inline-block;
+  height: 30px;
+  box-sizing: border-box;
+  background-color: #ebedf5;
+}
+.blank-box-edit {
+  margin-right: 4px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  height: 30px;
+  box-sizing: border-box;
+  min-width: 40px;
+  display: inline-block;
+  border: 1px solid #ebedf5 !important;
+}
+
+.blank-box {
+  padding: 4px;
+  border: 1px solid #ebedf5;
+  border-radius: 10px;
+  height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.blank-item-close {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translate(0, -50%);
+}
+.blank-item-close:hover {
+  background-color: #ccc;
+}

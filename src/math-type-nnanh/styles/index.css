@@ -1,0 +1,117 @@
+.nnanh_modal_dialogContainer {
+  bottom: 0px;
+  right: 10px;
+  height: 381px;
+  width: 552px;
+  position: fixed;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 50%);
+  border: none;
+  background: #fafafa;
+  z-index: 999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 24px;
+}
+.nnanh_modal_dialogContainer .wrs_modal_controls {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
+.nnanh_modal_dialogContainer .math-nnanh-toolbar {
+  border-bottom: 1px solid #b6b9ce;
+}
+.nnanh_modal_dialogContainer .content {
+  margin: 24px 0px;
+  height: calc(100% - 124px);
+  border: 1px solid #b6b9ce;
+  border-radius: 10px;
+}
+.nnanh_modal_dialogContainer .math_field {
+  margin: 5px 0 0 5px;
+}
+.wrs_modal_title_bar {
+  display: block;
+}
+.wrs_modal_title {
+  color: #4e5b6a;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wrs_modal_controls {
+  margin: 3px 0;
+  overflow: hidden;
+  line-height: normal;
+}
+.wrs_modal_buttons_container {
+  width: 238px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrs_modal_buttons_container > button {
+  display: block;
+  line-height: normal;
+  background-image: none;
+}
+.wrs_modal_button_accept,
+.wrs_modal_button_accept:hover,
+.wrs_modal_button_accept:visited,
+.wrs_modal_button_accept:active,
+.wrs_modal_button_accept:focus {
+  width: 113px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background: #8a6bf6;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+}
+
+.wrs_modal_button_cancel,
+.wrs_modal_button_cancel:hover,
+.wrs_modal_button_cancel:visited,
+.wrs_modal_button_cancel:active,
+.wrs_modal_button_cancel:focus {
+  width: 113px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #b6b9ce;
+  font-family: arial, sans-serif;
+  background-color: #f1f2f7;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button {
+  overflow: visible;
+}
+.math-nnanh-btn {
+  height: 33px;
+  width: 36px;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  cursor: pointer;
+  /* border-right: 1px solid #f1f2f7; */
+}
+.mq-math-mode .mq-supsub {
+  font-size: 75% !important;
+}
