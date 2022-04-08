@@ -173,10 +173,11 @@ export default class ModalDialog {
    */
   submitAction(mathField, event) {
     const { editor } = this;
-    const mathml = mathField.latex();
+    let mathml = mathField.latex();
     // This returns the value returned by the callback function (writer => {...})
     if (mathml == null || mathml == "" || mathml == undefined) {
     } else {
+      mathml = mathml.replaceAll('frac', 'dfrac')
       editor.model.change((writer) => {
         const options = {};
         options[mathAttributeName] = mathml;
